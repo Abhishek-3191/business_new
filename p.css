@@ -42,7 +42,7 @@ body {
     margin-right: auto;
     margin-bottom: 5%;
     place-items: center;
-    text-align: center;
+    align-items: center;
    display: inline-flex;
   }
   
