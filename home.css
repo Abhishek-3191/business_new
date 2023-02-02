@@ -1,0 +1,12 @@
+
+.brand {
+    text-align: center;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+  }
+  
+  .brand span {
+    color: #ffffff;
+  }
+  

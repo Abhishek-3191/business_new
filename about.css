@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav');
+
+
+/* GLOBAL STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+  color: #ffff;
+  line-height: 1.6;
+  font-family: 'Yantramanav', sans-serif;
+  padding: 1em;
+  text-align: center;
+}
+/* Heading */
+.brand {
+    text-align: center;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+  }
+  
+  .brand span {
+    color: #ffffff;
+    font-size: 40px;
+  }
+  
+/* Para */
+.container{
+    padding: 15px;
+   background: #dcdfea;
+    color:#485e74;
+    font-size: 20px;;
+    height: 86vh;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 15px; 
+
+}
+/* media */
+@media only screen and (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+ 
